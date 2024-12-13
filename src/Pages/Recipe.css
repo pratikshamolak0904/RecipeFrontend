@@ -1,0 +1,100 @@
+.abc1{
+    background: url('https://static.vecteezy.com/system/resources/previews/037/245/808/non_2x/ai-generated-beautuful-fast-food-background-with-copy-space-free-photo.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    padding: 20px;
+    margin-top: 10px;
+  }
+  .abc1 .recipe-form {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow:  4px 4px 4px green;
+    width: 500px;
+    margin: 0 auto;
+    height: 80vh;
+  }
+  
+  .abc1 .recipe-form h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .abc1 .recipe-form form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .abc1 .recipe-form label {
+    font-weight: bold;
+    color: #555;
+  }
+  
+  .abc1 .recipe-form input,
+  .abc1 .recipe-form textarea {
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  .abc1 .recipe-form textarea {
+    height: 44px;
+    resize: vertical;
+  }
+  
+  button[type="submit"],
+  button[type='onclick'] {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    width: 100%;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  button[type="submit"]:hover{
+    background-color: #45a049;
+    transform: scale(1.05);
+  }
+ 
+  button[type='onclick']:hover {
+    background-color: crimson;
+    transform: scale(1.05);
+  }
+  
+  button[type="submit"]:active {
+    background-color: #388e3c;
+    
+  }
+  button[type='onclick']:active{
+    background-color: red;
+  }
+  
+  button[type='onclick'] {
+    background-color: #f44336;
+    margin-top: 20px;
+  }
+  
+  .recipe-form input:focus,
+  .recipe-form textarea:focus {
+    outline: none;
+    border-color: #4CAF50;
+    box-shadow: 0 0 5px rgba(76, 175, 80, 0.3);
+  }
+  
+  .recipe-form input::placeholder,
+  .recipe-form textarea::placeholder {
+    color: #888;
+  }
+  
